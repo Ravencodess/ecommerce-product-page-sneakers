@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-thumbnail{
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 0.75rem;
+    opacity: 40%;
+}
+
+.cart-notif{
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    height: 1rem;
+    width: 1.25rem;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: hsl(26, 100%, 55%);
+}
+
+
+@media (min-width: 640px){
+    .cart-notif{
+        top: 0.5rem;
+    }
+}
